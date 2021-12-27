@@ -1,0 +1,69 @@
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+    margin: 20px;
+
+}
+
+img {
+    border-radius: 50%;
+    
+}
+
+h1 {
+    
+}
+
+header {
+    border-bottom: dotted rgb(241, 228, 230);  
+    background-color: rgb(247, 251, 243);
+}
+
+table, td, th {
+    border: 1px dotted rgb(194, 188, 193);
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+
+th {
+   background-color: rgb(247, 251, 243); 
+}
+
+a {
+    text-decoration: none black;
+    color: black;
+    
+}
+
+a:hover {
+    color: rgb(182, 36, 97);
+    cursor: pointer;
+}
+
+a:visited {
+    color:rgb(117, 182, 223);
+}
+
+a:focus {
+    color:rgb(182, 103, 103);
+}
+
+a:active {
+    color: cornflowerblue;
+}
+
+dl, dt, dd {
+    
+    padding: 5px;
+}
+
+dl {
+    border:rgb(182, 36, 97) 1px dotted;
+    
+}
+
