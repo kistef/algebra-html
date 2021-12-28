@@ -5,13 +5,15 @@
         <meta charset ="UTF-8">
         <meta name="author" content="content">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="katarina.css">
     </head>
 
     <body>
+        <h1>Obrazac za upite</h1>
         <main>
             <form action="" method="post" enctype="multipart/form-data" autocomplete="on">
 
-                <p>
+                <p class="form">
                     <label for="ime">Ime i prezime *<br></label>
                     <input id="ime" name="imeiprezime" type="text" size="20" placeholder="Vaše ime i prezime" required>
                 </p>
@@ -26,8 +28,9 @@
                     <input id="tel" name="tel" type="tel" size="20">
                 </p>
 
-                <p> Vaš komentar:<br>
-                    <textarea name="" cols="30" rows="10">  </textarea>
+                <p> 
+                    <label for="text">Vaš komentar <br></label>
+                    <textarea name="text" cols="30" rows="10">  </textarea>
                 </p>
 
                 <p>

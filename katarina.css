@@ -6,7 +6,6 @@ body {
     font-family: 'Raleway', sans-serif;
     padding: 25px;
     margin: 20px;
-
 }
 
 img {
@@ -14,24 +13,19 @@ img {
     
 }
 
-h1 {
-    
-}
-
 header {
     border-bottom: dotted rgb(241, 228, 230);  
-    background-color: rgb(247, 251, 243);
+    background-color: rgb(247, 243, 235);
 }
 
 table, td, th {
     border: 1px dotted rgb(194, 188, 193);
     border-collapse: collapse;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 th {
-   background-color: rgb(247, 251, 243); 
+   background-color: rgb(247, 243, 235); 
 }
 
 a {
@@ -58,12 +52,28 @@ a:active {
 }
 
 dl, dt, dd {
-    
     padding: 5px;
 }
 
 dl {
-    border:rgb(182, 36, 97) 1px dotted;
+    border:rgb(240, 229, 206) 1px dotted;
     
 }
 
+label, input, textarea {
+    margin: 10px;
+}
+
+footer {
+    border-top: 1px dotted burlywood;
+}
+
+
+li {
+    display: inline;
+    padding: 10px; 
+}
+
+ul, h3 {
+    text-align: center;
+}
